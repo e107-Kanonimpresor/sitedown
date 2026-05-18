@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 
 ---
 
+## [2.2.1] — 2026-05-18
+
+Repository layout change only — **no code changes**, fully backward compatible
+with v2.2.0 installations.
+
+### Changed
+
+- **Repo root now hosts `e107_plugins/sitedown_styles/`** instead of the flat layout. Required by the e107-2.3.x-Lite plugin registry checker (Jimmi08/e107-2.3.x-Lite#41): a `codeload.github.com` zip of this repo can now be extracted directly onto an e107 site root for a one-click drop-in install.
+- No functional changes. Class names, prefs, language constants, template paths and shortcode batches are identical to v2.2.0.
+
+---
+
 ## [2.2.0] — 2026-05-11
 
 Continuation of the v2.1.0 4-layer refactor: the **About tab** is now built on
