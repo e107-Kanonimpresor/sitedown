@@ -11,7 +11,7 @@ This repository hosts the **`sitedown_styles`** plugin packaged in the standard 
 
 ## 📦 Repository layout
 
-\`\`\`
+```
 sitedown/
 └── e107_plugins/
     └── sitedown_styles/   ← the actual plugin
@@ -20,7 +20,7 @@ sitedown/
         ├── templates/
         ├── languages/ (EN / ES / PT)
         └── ...
-\`\`\`
+```
 
 ## 📖 Documentation
 
